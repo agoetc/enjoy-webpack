@@ -1,9 +1,12 @@
 {
   "name": "enjoy-webpack",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "agoetc <tkgw666private@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "watch": "webpack --mode=development -w"
+  },
   "devDependencies": {
     "@types/webpack": "^5.28.0",
     "ts-loader": "^9.2.3",
