@@ -1,3 +1,4 @@
 export const hoge = () => {
-    console.log('hoge')
+    console.log('bba')
 }
+hoge()
